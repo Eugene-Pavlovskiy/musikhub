@@ -4,6 +4,15 @@ body {
     color: #f4f4f4;
 }
 
+/*.list {
+    list-style: none;
+}
+  
+.link {
+    text-decoration: none;
+    outline: none;
+}*/
+
 /*Header css*/
 .header {
     background: #373737;

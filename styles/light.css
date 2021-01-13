@@ -5,6 +5,15 @@ body
     color: #111111;
 }
 
+/*.list {
+    list-style: none;
+}
+  
+.link {
+    text-decoration: none;
+    outline: none;
+}*/
+
 /*Header css*/
 .header {
     background: #4a76a8;

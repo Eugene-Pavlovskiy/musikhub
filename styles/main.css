@@ -55,6 +55,10 @@ body, html {
     background: #6f9fcf;
 }
 
+.img {
+    margin: 50px auto 50px 50px;
+}
+
 /*Footer css*/
 .footer {
     background-color: #4f7faf;
