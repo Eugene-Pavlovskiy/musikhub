@@ -1,0 +1,20 @@
+.list {
+    list-style: none;
+}
+  
+.link {
+    text-decoration: none;
+    outline: none;
+}
+
+.header {
+    width: 100%;
+    min-height: 40px;
+    background-color: aquamarine;
+}
+
+.footer {
+    width: 100%;
+    min-height: 40px;
+    background-color: aquamarine;
+}
