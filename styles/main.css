@@ -1,0 +1,65 @@
+/*Main css*/
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    font-size: 16px;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.list {
+    list-style: none;
+}
+  
+.link {
+    text-decoration: none;
+    outline: none;
+}
+
+/*Header css*/
+.header {
+    background: #cccccc;
+}
+
+.header__content {
+    padding: 5px;
+}
+
+/*Nav css*/
+.nav__list {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px 25px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+/*Theme button css*/
+.theme-button {
+    position: absolute;
+    right: 5px;
+    top: 25px;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #f4f4f4;
+    background: #4f7faf;
+    cursor: pointer;
+}
+
+.theme-button:hover {
+    background: #6f9fcf;
+}
+
+/*Footer css*/
+.footer {
+    background-color: #4f7faf;
+}
+
+.footer__content {
+    padding: 5px;
+}

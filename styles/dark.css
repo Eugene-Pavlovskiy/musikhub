@@ -1,0 +1,31 @@
+/*Main css*/
+body {
+    background: #111;
+    color: #f4f4f4;
+}
+
+/*Header css*/
+.header {
+    background: #373737;
+    color: #f4f4f4;
+}
+
+/*Nav css*/
+.nav__list {
+    color: #f4f4f4;
+    background: #373737;
+}
+
+.nav__list:hover,
+.nav__list_active {
+    background: #444;
+}
+
+.theme-button {
+    color: #f4f4f4;
+    background: #4f7faf;
+}
+
+.theme-button:hover {
+    background: #6f9fcf;
+}
