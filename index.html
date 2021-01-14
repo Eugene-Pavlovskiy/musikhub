@@ -11,19 +11,23 @@
 <body>
   <div class="wrapper">
     <div class="theme-button" id="theme-button">Change theme</div>
-  <header class="header">
-    <div class="header__content">
-      <nav class="nav">
-        <ul class="nav__content">
-          <li class="nav__item list"><a class="nav__list list link" href="./index.html">Musik Hub</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <header class="header">
+      <div class="header__content">
+        <nav class="nav">
+          <a href="./index.html">
+            <img class="brandlogo" src="./img/music-logo.png" width="30">
+          </a>
+          <ul class="nav__content">
+            <li class="nav__item list"><a class="nav__list list link" href="./index.html">Musik Hub</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
   <main>
+    <!--Audiotracks-->
     <div class="container">
       <!-- Аудио 1 -->
-      <ul>
+      <ul class="audiotrack">
         <li class="audio__list list">
           <audio controls preload="none">
             <source src="./audio/a-est-esche-v-stile-progressive-house-1180.mp3" type="audio/mp3">
@@ -139,17 +143,20 @@
         </li>
       </ul>
     </div>
+
+    <!--Image-->
     <div class="img container">
-      <img src="./img/music-logo.png" width="200">
+      
     </div>
-    
   </main>
-<footer class="footer">
-  <div class="footer__content">
-    <p>&copy 2021;</p>
-  </div>
-</footer>
+
+  <!--Footer-->
+  <footer class="footer">
+    <div class="footer__content">
+      <p>&copy 2021</p>
+    </div>
+  </footer>
 </div>
-<script type="text/javascript" src="scripts/themes.js"></script>
+  <script type="text/javascript" src="scripts/themes.js"></script>
 </body>
 </html>
