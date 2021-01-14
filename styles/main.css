@@ -63,11 +63,14 @@ img {
 
 /*Header css*/
 .header {
-  background: #cccccc;
+    position: fixed;
+    width: 100%;
+    background: #cccccc;
+    z-index: 2;
 }
 
 .header__content {
-  padding: 10px;
+    padding: 10px;
 }
 
 /*Nav css*/
