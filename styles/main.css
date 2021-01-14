@@ -21,6 +21,13 @@ body, html {
     outline: none;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    padding: 20px;
+}
+
 /*Header css*/
 .header {
     background: #cccccc;
@@ -57,6 +64,12 @@ body, html {
 
 .img {
     margin: 50px auto 50px 50px;
+}
+
+.table {
+	border-style: solid;
+	border-color: #4f7faf;
+	background-color: rgb(142, 142, 143);
 }
 
 /*Footer css*/
